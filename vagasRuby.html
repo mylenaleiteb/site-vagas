@@ -2,26 +2,22 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Vagas Back-end</title>
+    <title>Vagas Ruby on Rails</title>
     <link rel="stylesheet" type="text/css" href="novoestilo.css">
     <link rel="icon" type="image/x-icon"    href="imagens/we-removebg-preview.png">
 </head>
 <body>
-    <?php
-    $name = "área de Back-end";
-    include_once 'cabecalho.php';
-    ?>
-
-    <div id="jsonTable"></div>
     
     <?php
-    include_once 'modalLogin.php';
+    $name = "linguagem Ruby";
+    include_once 'cabecalho.html';
     ?>
-
+    
+    <div id="jsonTable"></div>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const jsonTable = document.getElementById('jsonTable');
-            const fileName = 'arquivosJson/scrapping_vagas_backend2.json'; // Nome do seu arquivo JSON
+            const fileName = 'arquivosJson/scrapping_vagas_rubi.json'; // Nome do seu arquivo JSON
 
             fetch(fileName)
                 .then(response => response.json())
@@ -29,8 +25,6 @@
                     const tableData = arrayToHtmlTable(data);
 
                     jsonTable.innerHTML = tableData;
-                    
-                    adicionarEventoModal();                    
                 })
                 .catch(error => {
                     console.error('Erro ao carregar o arquivo JSON:', error);
@@ -94,29 +88,11 @@
 
                 return tableHTML;
             }
-
-            //Funções para o modal de Login
-            function adicionarEventoModal() {
-                document.querySelectorAll('#jsonTable a').forEach(link => [
-                    link.addEventListener('click', function(e) { 
-                        e.preventDefault(); // impede comportamento padrão do link
-                        exibirModal();
-                    })
-                ]);
-            }
-
-            function exibirModal() {
-                document.getElementById('myModal').style.display = 'flex';
-            }
-
-            function fecharModal() {
-                document.getElementById('myModal').style.display = 'none';
-            }
         });
     </script>
 
     <?php
-    include_once 'footerArea.php';
+    include_once 'footerLinguagem.html';
     ?>
 
 </body>

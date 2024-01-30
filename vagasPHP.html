@@ -2,22 +2,22 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Vagas C#</title>
+    <title>Vagas Back-end</title>
     <link rel="stylesheet" type="text/css" href="novoestilo.css">
     <link rel="icon" type="image/x-icon"    href="imagens/we-removebg-preview.png">
 </head>
 <body>
 
     <?php
-    $name = "linguagem C#";
-    include_once 'cabecalho.php';
+    $name = "linguagem PHP";
+    include_once 'cabecalho.html';
     ?>
     
     <div id="jsonTable"></div>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const jsonTable = document.getElementById('jsonTable');
-            const fileName = 'arquivosJson/scrapping_vagas_c.json'; // Nome do seu arquivo JSON
+            const fileName = 'arquivosJson/scrapping_vagas_PHP.json'; // Nome do seu arquivo JSON
 
             fetch(fileName)
                 .then(response => response.json())
@@ -81,7 +81,7 @@
                         }
                     }
                     tableHTML += '</tr>';
-                    }
+                }
                 });
 
                 tableHTML += '</tbody></table>';
@@ -92,7 +92,8 @@
     </script>
 
     <?php
-    include_once 'footerLinguagem.php';
+    include_once 'footerLinguagem.html';
     ?>
+
 </body>
 </html>

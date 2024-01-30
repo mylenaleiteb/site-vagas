@@ -2,26 +2,27 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Vagas Ruby on Rails</title>
+    <title>Vagas Java</title>
     <link rel="stylesheet" type="text/css" href="novoestilo.css">
     <link rel="icon" type="image/x-icon"    href="imagens/we-removebg-preview.png">
 </head>
 <body>
     <?php
-    $name = "linguagem Ruby";
-    include_once 'cabecalho.php';
+    $name = "linguagem Java";
+    include_once 'cabecalho.html';
     ?>
     
     <div id="jsonTable"></div>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const jsonTable = document.getElementById('jsonTable');
-            const fileName = 'arquivosJson/scrapping_vagas_rubi.json'; // Nome do seu arquivo JSON
+            const fileName = 'arquivosJson/scrapping_vagas_java.json'; // Nome do seu arquivo JSON
 
             fetch(fileName)
                 .then(response => response.json())
                 .then(data => {
-                    const tableData = arrayToHtmlTable(data);
+                    const limitedData = data.slice(0, 20); // Limita a 20 linhas
+                    const tableData = arrayToHtmlTable(limitedData);
 
                     jsonTable.innerHTML = tableData;
                 })
@@ -91,7 +92,7 @@
     </script>
 
     <?php
-    include_once 'footerLinguagem.php';
+    include_once 'footerLinguagem.html';
     ?>
 
 </body>

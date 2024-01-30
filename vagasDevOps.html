@@ -7,17 +7,15 @@
     <link rel="icon" type="image/x-icon"    href="imagens/we-removebg-preview.png">
 </head>
 <body>
-
     <?php
-    $name = "linguagem PHP";
-    include_once 'cabecalho.php';
+    $name = "área de Dev-Ops";
+    include_once 'cabecalho.html';
     ?>
-    
     <div id="jsonTable"></div>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const jsonTable = document.getElementById('jsonTable');
-            const fileName = 'arquivosJson/scrapping_vagas_PHP.json'; // Nome do seu arquivo JSON
+            const fileName = 'arquivosJson/scrapping_vagas_devops.json'; // Nome do seu arquivo JSON
 
             fetch(fileName)
                 .then(response => response.json())
@@ -92,7 +90,7 @@
     </script>
 
     <?php
-    include_once 'footerLinguagem.php';
+    include_once 'footerArea.html';
     ?>
 
 </body>
