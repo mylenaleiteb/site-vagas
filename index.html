@@ -1,31 +1,164 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ... (seu código atual) ... -->
+</head>
+<meta charset="UTF-8">
     <title>WeJobs</title>
-    <link rel="stylesheet" type="text/css" href="estilopaginicial.css">
-    <link rel="icon" type="image/x-icon"    href="imagens/we-removebg-preview.png">
+    <link rel="stylesheet" type="text/css" href="novoestilo.css">
+    <link rel="icon" type="image/x-icon" href="imagens/we-removebg-preview.png">
+    <style>
+        /* Estilos adicionais para as tabelas */
+        .table-container {
+            margin-bottom: 40px;
+            display: block; /* Inicia todas as tabelas visíveis */
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 50%;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            color: #2F2D5C;
+        }
+
+        #campo-busca {
+            width: 50%;
+            margin: 2% auto;
+            padding: 10px;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #searchInput {
+            width: 70%;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        #searchButton {
+            width: 25%;
+            padding: 10px;
+            margin-left: 1px;
+            box-sizing: border-box;
+        }
+
+        .link {
+            color: #ddd;
+        }
+
+        .linhaLink:hover {
+            transform: scale(1.1);
+            background-color: #2F2D5C;
+        }
+
+        .linhaLink {
+            background-color: hsl(244, 53%, 26%, 0.8) /*#2F2D5C*/;
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+
+    </style>
 </head>
 <body>
-    <div class="cabecalho-fixo">
+    <div class="cabecalho">
         <div class="imagem-logo">
             <a href="https://werecruiter.tech/" target="_blank" rel="noopener noreferr">
                 <img src="imagens/64f10902585b69001725fa6f_optimized_341.webp" alt="logo">
             </a>
         </div>
-    </div>
-    <div class="container">
-        <div class="text-container">
-            <h1>WeJobs</h1>
-            <p>Uma solução Werecruiter para você encontrar as vagas que procura, em um só lugar</p>
-            <p>Navegue pelos menus para encontrar as vagas de emprego abertas recentemente na área de tecnologia</p>
-            <a class="button" href="vagasPorArea.html">Vagas por Área</a>
-            <a class="button" href="vagasPorLinguagem.html">Vagas por Tecnologia</a>
+        <div class="titulo">
+            <h1>Confira as vagas mais recentes para a área de Desenvolvimento</h1>
         </div>
-        <div class="image-container">
-            <img src="imagens/annie-spratt-dWYU3i-mqEo-unsplash.jpg" alt="Coworking Image">
-        </div>
+    </div> 
+
+    <div id="campo-busca">
+        <input type="text" id="searchInput" placeholder="Pesquisar vaga...">
+        <button type="button" id="searchButton">Pesquisar</button>
     </div>
+
+    <div id="jsonTables"></div>
+
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const jsonTables = document.getElementById('jsonTables');
+        const searchInput = document.getElementById('searchInput');
+        const searchButton = document.getElementById('searchButton');
+        const tablesContainers = document.getElementsByClassName('table-container');
+        
+        function arrayToHtmlTables(data) {
+            let tablesHTML = '';
+
+            data.forEach((row, index) => {
+                tablesHTML += `<div class="table-container" id="table${index}"><table border="1">`;
+                for (const key in row) {
+                    if (row.hasOwnProperty(key)) {
+                        if (key === 'Link') {
+                            // Adicionando coluna com três linhas vazias ao lado das linhas existentes
+                            tablesHTML += `<tr><td class="linhaLink" colspan="2"><a class="link" href="${row[key]}" target="_blank"> Quero me candidatar! </a></td></tr>`;
+                            tablesHTML += `<tr> <td style="width: 6px;"><img src="imagens/vaga.png" alt="logoVaga"></td> <td>${row['Vaga']}</td> </tr>`;
+                            tablesHTML += `<tr> <td style="width: 6px;"><img src="imagens/empresa.png" alt="logoEmpresa"></td> <td>${row['Empresa']}</td> </tr>`;
+                            tablesHTML += `<tr> <td style="width: 6px;"><img src="imagens/data.png" alt="logoData"></td> <td>${row['Data']}</td> </tr>`;
+                            
+                        } else if (key !== 'Vaga' && key !== 'Empresa' && key !== 'Data') {
+                            tablesHTML += `<tr><td>${key}: ${row[key]}</td></tr>`;
+                        }
+                    }
+                }
+                tablesHTML += '</table></div>';
+            });
+
+            return tablesHTML;
+        }
+
+        function search() {
+            const searchTerm = searchInput.value.toLowerCase();
+
+            for (const container of tablesContainers) {
+                let found = false;
+                const cells = container.querySelectorAll('td');
+
+                for (const cell of cells) {
+                    const content = cell.textContent.toLowerCase();
+
+                    if (searchTerm === '' || content.includes(searchTerm)) {
+                        found = true;
+                        break;
+                    }
+                }
+
+                if (found) {
+                    container.style.display = 'block';
+                } else {
+                    container.style.display = 'none';
+                }
+            }
+        }
+
+        searchButton.addEventListener('click', search);
+
+        fetch('arquivosJson/busca_geral.json')
+            .then(response => response.json())
+            .then(data => {
+                const tableData = arrayToHtmlTables(data);
+                jsonTables.innerHTML = tableData;
+            })
+            .catch(error => {
+                console.error('Erro ao carregar o arquivo JSON:', error);
+            });
+        });
+    </script>
+
 </body>
 </html>

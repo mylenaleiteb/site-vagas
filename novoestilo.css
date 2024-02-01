@@ -4,7 +4,7 @@ body {
     /*background-color: #f3f3f3;*/
     margin: 0;
     padding: 0;
-    background: url('imagens/annie-spratt-dWYU3i-mqEo-unsplash.jpg') center/cover; /* Imagem de fundo */
+    background: #ccc; /*url('imagens/annie-spratt-dWYU3i-mqEo-unsplash.jpg') center/cover; /* Imagem de fundo */
     position: relative; /* Necessário para posicionar conteúdo absoluto dentro */
 }
 
@@ -12,7 +12,7 @@ body {
     color: #f9f9f9;
     /*background-color: rgba(255, 255, 255, 0.2);*/
     /*padding: 20px 0;*/
-    margin-left: 90px;
+    margin-left: 280px;
     margin-top: 20px;
 }
 
@@ -57,7 +57,7 @@ a:hover {
     /*align-items: center;*/
     /*justify-content: center;*/
     /*background-color: rgba(255, 255, 255, 0.2);*/
-    background-color: #241f66;
+    background-color: hsl(244, 53%, 26%);
     padding: 10px 20px;
 }
 
