@@ -8,12 +8,29 @@ body {
     position: relative; /* Necessário para posicionar conteúdo absoluto dentro */
 }
 
-.titulo h1 {
+.titulo {
     color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+    /*position: relative;
+    height: 100px;*/
+}
+
+.titulo h1 {
+    /*color: #f9f9f9;*/
     /*background-color: rgba(255, 255, 255, 0.2);*/
     /*padding: 20px 0;*/
-    margin-left: 280px;
-    margin-top: 20px;
+    /*margin-left: 190px;
+    margin-top: 20px;*/
+    margin: 0px;
+    text-align: center;
+    /*position: absolute;
+    top: 50%;
+    left: 50%;*/
+    /*transform: translate(-50%);*/
 }
 
 table {
@@ -90,4 +107,64 @@ a.button {
 
 a.button:hover {
     background-color: #080444;
+}
+
+
+
+.table-container {
+    margin-bottom: 40px;
+    display: block; /* Inicia todas as tabelas visíveis */
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #2F2D5C;
+}
+
+#campo-busca {
+    width: 50%;
+    margin: 2% auto;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+#searchInput {
+    width: 70%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#searchButton {
+    width: 25%;
+    padding: 10px;
+    margin-left: 1px;
+    box-sizing: border-box;
+}
+
+.link {
+    color: #ddd;
+}
+
+.linhaLink:hover {
+    transform: scale(1.1);
+    background-color: #2F2D5C;
+}
+
+.linhaLink {
+    background-color: hsl(244, 53%, 26%, 0.8) /*#2F2D5C*/;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
 }
