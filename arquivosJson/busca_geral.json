@@ -1,5 +1,29 @@
 [
   {
+    "Link": "https://werecruiter.gupy.io/job/eyJqb2JJZCI6NjY4OTkxMCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
+    "Vaga": "Desenvolvedor(a) Java (Pleno)",
+    "Empresa": "Recrutamento para área de tecnologia com Fit Cultural e Aderência Técnica.",
+    "Data": "Publicada em: 30/01/2024"
+  },
+  {
+    "Link": "https://digicon.gupy.io/job/eyJqb2JJZCI6NjY4OTg0MCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
+    "Vaga": "Desenvolvedor de Software I",
+    "Empresa": "DIGICON",
+    "Data": "Publicada em: 30/01/2024"
+  },
+  {
+    "Link": "https://grupoboticario.gupy.io/job/eyJqb2JJZCI6NjU0Njk1MSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
+    "Vaga": "Pessoa Desenvolvedora Fullstack Especialista I (Lojas e Franquias) - Afirmativa para Talentos Diversos",
+    "Empresa": "Grupo Boticário",
+    "Data": "Publicada em: 30/01/2024"
+  },
+  {
+    "Link": "https://institutoeldorado.gupy.io/job/eyJqb2JJZCI6NjY4OTU1Nywic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
+    "Vaga": "Desenvolvedor Android Framework",
+    "Empresa": "Instituto de Pesquisas ELDORADO",
+    "Data": "Publicada em: 30/01/2024"
+  },
+  {
     "Link": "https://institutoeldorado.gupy.io/job/eyJqb2JJZCI6NjY4OTMxMCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
     "Vaga": "Desenvolvedor Kernel",
     "Empresa": "Instituto de Pesquisas ELDORADO",
@@ -90,27 +114,231 @@
     "Data": "Publicada em: 29/01/2024"
   },
   {
-    "Link": "https://certsys.gupy.io/job/eyJqb2JJZCI6NjY3NjU5Nywic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
-    "Vaga": "Pessoa Desenvolvedora RPA PL (Uipath)",
-    "Empresa": "Certsys",
-    "Data": "Publicada em: 29/01/2024"
-  },
-  {
-    "Link": "https://certsys.gupy.io/job/eyJqb2JJZCI6NjY3MDM4OCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
-    "Vaga": "Pessoa Desenvolvedora RPA PL (Uipath)",
-    "Empresa": "Certsys",
-    "Data": "Publicada em: 29/01/2024"
-  },
-  {
-    "Link": "https://gruposinagro.gupy.io/job/eyJqb2JJZCI6NjY4MzE4NCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
-    "Vaga": "Desenvolvedor ABAP - Goiânia/GO",
-    "Empresa": "Grupo Sinagro",
-    "Data": "Publicada em: 29/01/2024"
-  },
-  {
-    "Link": "https://grupoboticario.gupy.io/job/eyJqb2JJZCI6NjY1NzIyMCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
-    "Vaga": "Pessoa Desenvolvedora Analista III Backend/Nodejs - Venda Direta (Sellout) - Vaga Afirmativa para Mulheres (Cis ou Trans)",
+    "Link": "https://grupoboticario.gupy.io/job/eyJqb2JJZCI6NjcxMDM1OCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
+    "Vaga": "Pessoa Desenvolvedora Back-end Java/Kotlin I (Produtos Estruturantes) - Vaga Afirmativa para Talentos Diversos",
     "Empresa": "Grupo Boticário",
-    "Data": "Publicada em: 29/01/2024"
+    "Data": "Publicada em: 05/02/2024"
+  },
+  {
+    "Link": "https://onfly.gupy.io/job/eyJqb2JJZCI6NjcxMzQ0Mywic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
+    "Vaga": "Desenvolvedor(a) Back-end Sênior | Laravel (Híbrido - BH)",
+    "Empresa": "Novas oportunidades na Onfly!",
+    "Data": "Publicada em: 05/02/2024"
+  },
+  {
+    "Link": "https://mjvcarreiras.gupy.io/job/eyJqb2JJZCI6NjcwNTgwNywic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
+    "Vaga": "Pessoa Desenvolvedora Mobile (Ionic)",
+    "Empresa": "MJV Technology & Innovation",
+    "Data": "Publicada em: 05/02/2024"
+  },
+  {
+    "Link": "https://kpmgbrasil.gupy.io/job/eyJqb2JJZCI6NjcxMjkxNiwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
+    "Vaga": "Desenvolvedor FullStack.NET (Assistente)",
+    "Empresa": "KPMG Brasil",
+    "Data": "Publicada em: 05/02/2024"
+  },
+  {
+    "Link": "https://werecruiter.gupy.io/job/eyJqb2JJZCI6NjcxMjc5MSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
+    "Vaga": "Desenvolvedor(a) Java",
+    "Empresa": "Recrutamento para área de tecnologia com Fit Cultural e Aderência Técnica.",
+    "Data": "Publicada em: 05/02/2024"
+  },
+  {
+    "Link": "https://datum.gupy.io/job/eyJqb2JJZCI6NjY5NTc5OCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
+    "Vaga": "Pessoa Desenvolvedora Java BackEnd PL",
+    "Empresa": "Datum TI",
+    "Data": "Publicada em: 05/02/2024"
+  },
+  {
+    "Link": "https://datum.gupy.io/job/eyJqb2JJZCI6NjY5NjAwMCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
+    "Vaga": "Pessoa Desenvolvedora Java BackEnd SR",
+    "Empresa": "Datum TI",
+    "Data": "Publicada em: 05/02/2024"
+  },
+  {
+    "Link": "https://webmotors.gupy.io/job/eyJqb2JJZCI6NjcxMDg0Nywic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
+    "Vaga": "Desenvolvedor Back-end Senior",
+    "Empresa": "Webmotors",
+    "Data": "Publicada em: 02/02/2024"
+  },
+  {
+    "Link": "https://mainleaf.gupy.io/job/eyJqb2JJZCI6NjcxMDA1NCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
+    "Vaga": "Desenvolvedor de Jogos Sr.",
+    "Empresa": "Main Leaf",
+    "Data": "Publicada em: 02/02/2024"
+  },
+  {
+    "Link": "https://techlead.gupy.io/job/eyJqb2JJZCI6NjcxMDUwNCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
+    "Vaga": "Desenvolvedor(a) JAVA Pleno",
+    "Empresa": "Techlead",
+    "Data": "Publicada em: 02/02/2024"
+  },
+  {
+    "Link": "https://montreal.gupy.io/job/eyJqb2JJZCI6NjcxMDI4Niwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
+    "Vaga": "Desenvolvedor .Net Fullstack Pleno - Regional São Paulo",
+    "Empresa": "Montreal & Tecnologia & Inovação",
+    "Data": "Publicada em: 02/02/2024"
+  },
+  {
+    "Link": "https://qualitydigital.gupy.io/job/eyJqb2JJZCI6NjcwMjg5NCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
+    "Vaga": "6702894 - DESENVOLVEDOR FULL-STACK SENIOR - .NET",
+    "Empresa": "Quality Digital",
+    "Data": "Publicada em: 02/02/2024"
+  },
+  {
+    "Link": "https://qualitydigital.gupy.io/job/eyJqb2JJZCI6NjY5OTg4Niwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
+    "Vaga": "ANALISTA DESENVOLVEDOR PLENO - .NET - ANGULAR",
+    "Empresa": "Quality Digital",
+    "Data": "Publicada em: 02/02/2024"
+  },
+  {
+    "Link": "https://sejaglobalweb.gupy.io/job/eyJqb2JJZCI6NjY4ODg3Mywic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
+    "Vaga": "ANALISTA DESENVOLVEDOR COBOL PL",
+    "Empresa": "Seja Globalweb",
+    "Data": "Publicada em: 02/02/2024"
+  },
+  {
+    "Link": "https://sejaglobalweb.gupy.io/job/eyJqb2JJZCI6NTc5NTQ0MSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
+    "Vaga": "DESENVOLVEDOR FRONTEND JAVA SR",
+    "Empresa": "Seja Globalweb",
+    "Data": "Publicada em: 02/02/2024"
+  },
+  {
+    "Link": "https://montreal.gupy.io/job/eyJqb2JJZCI6NjcxMDE2Miwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
+    "Vaga": "Desenvolvedor .Net Fullstack Sênior - Regional São Paulo",
+    "Empresa": "Montreal & Tecnologia & Inovação",
+    "Data": "Publicada em: 02/02/2024"
+  },
+  {
+    "Link": "https://afya.gupy.io/job/eyJqb2JJZCI6NjcxMDA5Niwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
+    "Vaga": "ICLINIC | Pessoa Desenvolvedora Frontend Pleno",
+    "Empresa": "Afya",
+    "Data": "Publicada em: 02/02/2024"
+  },
+  {
+    "Link": "https://facapartegrendene.gupy.io/job/eyJqb2JJZCI6NjcwNTUwMCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
+    "Vaga": "Desenvolvedor(a) Mobile II - React Native",
+    "Empresa": "Grendene",
+    "Data": "Publicada em: 02/02/2024"
+  },
+  {
+    "Link": "https://trescon.gupy.io/job/eyJqb2JJZCI6NjcwNzI2Nywic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
+    "Vaga": "Analista Desenvolvedor SAP ABAP",
+    "Empresa": "3CON | IT & Digital",
+    "Data": "Publicada em: 02/02/2024"
+  },
+  {
+    "Link": "https://grupoboticario.gupy.io/job/eyJqb2JJZCI6Njc2NjM3Miwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
+    "Vaga": "Pessoa Desenvolvedora Backend Node.JS III (Produtos Digitais Financeiros) Afirmativa para Talentos diversos",
+    "Empresa": "Grupo Boticário",
+    "Data": "Publicada em: 16/02/2024"
+  },
+  {
+    "Link": "https://stefanini.gupy.io/job/eyJqb2JJZCI6Njc2NjAwOCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
+    "Vaga": "Desenvolvedor Fullstack Java/Angular - SP",
+    "Empresa": "Stefanini Group",
+    "Data": "Publicada em: 16/02/2024"
+  },
+  {
+    "Link": "https://editoradobrasil.gupy.io/job/eyJqb2JJZCI6Njc2NTU5MSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
+    "Vaga": "Analista Desenvolvedor de Sistemas Jr - Full Stack",
+    "Empresa": "Editora do Brasil",
+    "Data": "Publicada em: 16/02/2024"
+  },
+  {
+    "Link": "https://stefanini.gupy.io/job/eyJqb2JJZCI6Njc2NTYxNywic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
+    "Vaga": "Desenvolvedor(a) React Native sênior - SP",
+    "Empresa": "Stefanini Group",
+    "Data": "Publicada em: 16/02/2024"
+  },
+  {
+    "Link": "https://mobit.gupy.io/job/eyJqb2JJZCI6Njc2NTY0OCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
+    "Vaga": "Desenvolvedor Full Stack SR | Fortaleza | Hibrido",
+    "Empresa": "Mobit Tecnologia",
+    "Data": "Publicada em: 16/02/2024"
+  },
+  {
+    "Link": "https://vemserbenner.gupy.io/job/eyJqb2JJZCI6Njc2NTA4NCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
+    "Vaga": "Desenvolvedor C# Pleno",
+    "Empresa": "Benner",
+    "Data": "Publicada em: 16/02/2024"
+  },
+  {
+    "Link": "https://grupoboticario.gupy.io/job/eyJqb2JJZCI6NjczMzE5Mywic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
+    "Vaga": "Pessoa Desenvolvedora Backend Node.JS III (Produtos Digitais Financeiros)",
+    "Empresa": "Grupo Boticário",
+    "Data": "Publicada em: 16/02/2024"
+  },
+  {
+    "Link": "https://mobit.gupy.io/job/eyJqb2JJZCI6Njc2NDUzMywic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
+    "Vaga": "Desenvolvedor Full Stack Java PLENO - Híbrido (Fortaleza)",
+    "Empresa": "Mobit Tecnologia",
+    "Data": "Publicada em: 16/02/2024"
+  },
+  {
+    "Link": "https://grupoboticario.gupy.io/job/eyJqb2JJZCI6Njc0Mjc0NSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
+    "Vaga": "Pessoa Desenvolvedora Especialista I FullStack NodeJS/React (ESG) - (Vaga Afirmativa para pessoas Pretas e Pardas)",
+    "Empresa": "Grupo Boticário",
+    "Data": "Publicada em: 16/02/2024"
+  },
+  {
+    "Link": "https://mesha.gupy.io/job/eyJqb2JJZCI6Njc2Mzg0Mywic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
+    "Vaga": "Desenvolvedor(a) FullStack PHP/Ionic - Presencial (Florianópolis)",
+    "Empresa": "MESHA TECNOLOGIA",
+    "Data": "Publicada em: 16/02/2024"
+  },
+  {
+    "Link": "https://certsys.gupy.io/job/eyJqb2JJZCI6Njc1ODYxOSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
+    "Vaga": "Pessoa Desenvolvedora Backend PL",
+    "Empresa": "Certsys",
+    "Data": "Publicada em: 16/02/2024"
+  },
+  {
+    "Link": "https://mindlab.gupy.io/job/eyJqb2JJZCI6Njc2MjY0Nywic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
+    "Vaga": "Desenvolvedor Backend Sênior",
+    "Empresa": "Mind Lab",
+    "Data": "Publicada em: 16/02/2024"
+  },
+  {
+    "Link": "https://cuponomia.gupy.io/job/eyJqb2JJZCI6NjY4MzY0NSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
+    "Vaga": "Desenvolvedor(a) React Native Sênior",
+    "Empresa": "Cuponomia",
+    "Data": "Publicada em: 16/02/2024"
+  },
+  {
+    "Link": "https://consultmidia.gupy.io/job/eyJqb2JJZCI6Njc2MTYwMCwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
+    "Vaga": "Analista Desenvolvedor Sênior Java",
+    "Empresa": "Consult Mídia Soluções",
+    "Data": "Publicada em: 16/02/2024"
+  },
+  {
+    "Link": "https://alterdata.gupy.io/job/eyJqb2JJZCI6NTUzNzcxNiwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
+    "Vaga": "Desenvolvedor Delphi (Pleno - Time Pack Fiscal)",
+    "Empresa": "Alterdata Software",
+    "Data": "Publicada em: 16/02/2024"
+  },
+  {
+    "Link": "https://consultmidia.gupy.io/job/eyJqb2JJZCI6Njc2MjU1MSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
+    "Vaga": "Analista Desenvolvedor Pleno (Python)",
+    "Empresa": "Consult Mídia Soluções",
+    "Data": "Publicada em: 16/02/2024"
+  },
+  {
+    "Link": "https://institutoeldorado.gupy.io/job/eyJqb2JJZCI6NjY2ODcxNywic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
+    "Vaga": "Pessoa Desenvolvedora Backend",
+    "Empresa": "Instituto de Pesquisas ELDORADO",
+    "Data": "Publicada em: 16/02/2024"
+  },
+  {
+    "Link": "https://caju.gupy.io/job/eyJqb2JJZCI6Njc2MTU5MSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
+    "Vaga": "Pessoa Desenvolvedora Back-End Sênior",
+    "Empresa": "Caju Benefícios",
+    "Data": "Publicada em: 16/02/2024"
+  },
+  {
+    "Link": "https://nava.gupy.io/job/eyJqb2JJZCI6Njc2MjY1OSwic291cmNlIjoiZ3VweV9wb3J0YWwifQ==?jobBoardSource=gupy_portal",
+    "Vaga": "Desenvolvedor Java SR",
+    "Empresa": "NAVA | Technology for Business",
+    "Data": "Publicada em: 16/02/2024"
   }
 ]
