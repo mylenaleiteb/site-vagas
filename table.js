@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const searchInput = document.getElementById('searchInput');
     const searchButton = document.getElementById('searchButton');
     const tablesContainers = document.getElementsByClassName('table-container');
-    const modal = document.getElementById('myModal');
+    /*const modal = document.getElementById('myModal');
     const closeButton = modal.querySelector('.close');
     const modalContent = modal.querySelector('.modal-content')
     let targetLinkHref = null; // Variável para armazenar o href do link clicado
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (targetLinkHref) {
             window.location.href = targetLinkHref;
         }
-    });
+    });*/
 
     // Função para renderizar as tabelas com base nos dados recebidos
     function renderTables(data) {
