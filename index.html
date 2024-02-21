@@ -20,11 +20,25 @@
     </div> 
 
     <div id="campo-busca">
-        <input type="text" id="searchInput" placeholder="Pesquisar vaga...">
+        <input type="text" id="searchInput" placeholder="Pesquisar vaga..." aria-placeholder="Pesquisar vaga...">
         <button type="button" id="searchButton">Pesquisar</button>
     </div>
 
     <div id="jsonTables"></div>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Faça seu cadastro em nossa plataforma para ser redirecionado!</h2>
+          <form id="candidateForm">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" placeholder="Nome" aria-placeholder="Nome" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Email" aria-placeholder="Email" required>
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+      </div>      
 
     <script src="table.js"></script>
 
