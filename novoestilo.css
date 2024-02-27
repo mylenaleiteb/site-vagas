@@ -139,12 +139,14 @@ th {
     text-align: center;
     display: flex;
     justify-content: space-between;
+    
 }
 
 #searchInput {
     width: 70%;
     padding: 10px;
     box-sizing: border-box;
+    height: 40px;
 }
 
 #searchButton {
@@ -152,6 +154,7 @@ th {
     padding: 10px;
     margin-left: 1px;
     box-sizing: border-box;
+    height: 40px;
 }
 
 .link {
