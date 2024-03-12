@@ -3,12 +3,12 @@ document.addEventListener('DOMContentLoaded', function() {
     const searchInput = document.getElementById('searchInput');
     const searchButton = document.getElementById('searchButton');
     const tablesContainers = document.getElementsByClassName('table-container');
-    /*const modal = document.getElementById('myModal');
+    const modal = document.getElementById('myModal');
     const closeButton = modal.querySelector('.close');
     const modalContent = modal.querySelector('.modal-content')
     let targetLinkHref = null; // Variável para armazenar o href do link clicado
 
-    // Adiciona evento de clique aos links "Quero me candidatar!"
+    /* Adiciona evento de clique aos links "Quero me candidatar!"
     function addLinkClickEvent() {
         const links = document.querySelectorAll('.link');
         for (const link of links) {
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
         modal.style.display = 'none';
     });
 
-    // Adiciona evento de envio ao formulário dentro do modal
+    /* Adiciona evento de envio ao formulário dentro do modal
     const candidateForm = document.getElementById('candidateForm');
     candidateForm.addEventListener('submit', function(event) {
         event.preventDefault(); // Impede o comportamento padrão do formulário
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (targetLinkHref) {
             window.location.href = targetLinkHref;
         }
-    });*/
+    }); */
 
     // Função para renderizar as tabelas com base nos dados recebidos
     function renderTables(data) {
